@@ -11,8 +11,8 @@ function App() {
         <Navbar/>
       <Routes>
         <Route path='/'element={<Home/>}/>
-        <Route path='/details'element={<Details/>}/>
-        <Route path='/recipe-item/:id'element={<Favorites/>}/>
+        <Route path='/recipe-item/:id'element={<Details/>}/>
+        <Route path='/favorites'element={<Favorites/>}/>
       </Routes>
       </div>
       
